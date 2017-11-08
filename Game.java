@@ -111,50 +111,50 @@ public class Game {
 	public static String Defense() {
 		Random random = new Random();
 		int defense = random.nextInt(4);
-		String bushoy = null;
+		String defensePosit = null;
 		if (defense == 0) {
-			bushoy = "run";
-			return bushoy;
+			defensePosit = "run";
+			return defensePosit;
 		}
 		if (defense == 1) {
-			bushoy = "pass";
-			return bushoy;
+			defensePosit = "pass";
+			return defensePosit;
 		}
 		if (defense == 2) {
-			bushoy = "blitz";
-			return bushoy;
+			defensePosit = "blitz";
+			return defensePosit;
 		}
 		if (defense == 3) {
-			bushoy = "kick return";
-			return bushoy;
+			defensePosit = "kick return";
+			return defensePosit;
 		}
-		return bushoy;
+		return defensePosit;
 
 	}
 
 	public static String Offense() {
 		Random random = new Random();
 		int offense = random.nextInt(4);
-		String michelle = null;
+		String offensePosit = null;
 		if (offense == 0) {
-			michelle = "run";
-			return michelle;
+			offensePosit = "run";
+			return offensePosit;
 		}
 		if (offense == 1) {
-			michelle = "pass";
-			return michelle;
+			offensePosit = "pass";
+			return offensePosit;
 
 		}
 		if (offense == 2) {
-			michelle = "punt";
-			return michelle;
+			offensePosit = "punt";
+			return offensePosit;
 		}
 		if (offense == 3) {
-			michelle = "field goal";
-			return michelle;
+			offensePosit = "field goal";
+			return offensePosit;
 
 		}
-		return michelle;
+		return offensePosit;
 	}
 
 	protected static void PlayingAPlay() {
